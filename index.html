@@ -15,14 +15,23 @@
         }
         body {
             background-image: url(myback.png);
-        background-size: 1400px;
+            background-repeat : no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            -webkit-background-size : cover;
+            -moz-background-size : cover;
+            -o-background-size : cover;
+            background-size : cover;
         }
 
-        @media (max-width: 480px) {
+        @media (min-width: 1000px) {
     body {
         background-image: url(myback.png);
     }
-}
+        @media screen (min-width: 1000px)
+            
+        }
+
 
         .profile {
             width: 100px;
